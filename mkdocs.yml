@@ -1,0 +1,23 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Docs: workspace/*
+  - Tags: tags.md
+theme:
+    name: material
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      # - navigation.sections
+      - navigation.path
+      - toc.follow
+      # - toc.integrate 
+      - search.suggest
+      - search.highlight
+      # - navigation.indexes
+
+plugins:
+  - search
+  - tags
+  - literate-nav
