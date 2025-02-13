@@ -1,7 +1,7 @@
 site_name: My Docs
 nav:
   - Home: index.md
-  - About: about.md
+  # - About: about.md
   - Docs: workspace/*
   - Tags: tags.md
 theme:
