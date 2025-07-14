@@ -62,3 +62,7 @@ Copy the executable to a folder like `data/local/myprog`
 
 
 ## Run it through the ADB terminal
+
+- Copy the executable to `/data/local/tmp` with `adb push`
+- Then call `chmod +x <executable name>`
+- You should be able to run it
